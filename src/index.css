@@ -1,7 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   font-family: "Nunito", sans-serif;
   line-height: 1.5;
   font-weight: 700;
+  height: 100%;
 
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
@@ -9,21 +19,21 @@
   background: hsla(252, 59%, 45%, 1);
 
   background: linear-gradient(
-    0deg,
+    270deg,
     hsla(252, 59%, 45%, 1) 0%,
     hsla(252, 59%, 45%, 1) 52%,
     hsla(264, 87%, 24%, 1) 100%
   );
 
   background: -moz-linear-gradient(
-    0deg,
+    270deg,
     hsla(252, 59%, 45%, 1) 0%,
     hsla(252, 59%, 45%, 1) 52%,
     hsla(264, 87%, 24%, 1) 100%
   );
 
   background: -webkit-linear-gradient(
-    0deg,
+    270deg,
     hsla(270, 59%, 45%, 1) 0%,
     hsla(252, 59%, 45%, 1) 52%,
     hsla(252, 70%, 24%, 1) 100%
@@ -45,21 +55,21 @@
   background: hsla(252, 59%, 45%, 1);
 
   background: linear-gradient(
-    0deg,
+    270deg,
     hsla(252, 59%, 45%, 1) 0%,
     hsla(252, 59%, 45%, 1) 52%,
     hsla(264, 87%, 24%, 1) 100%
   );
 
   background: -moz-linear-gradient(
-    0deg,
+    270deg,
     hsla(252, 59%, 45%, 1) 0%,
     hsla(252, 59%, 45%, 1) 52%,
     hsla(264, 87%, 24%, 1) 100%
   );
 
   background: -webkit-linear-gradient(
-    0deg,
+    270deg,
     hsla(270, 59%, 45%, 1) 0%,
     hsla(252, 59%, 45%, 1) 52%,
     hsla(252, 70%, 24%, 1) 100%
