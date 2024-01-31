@@ -59,17 +59,17 @@ nav {
 
 .border-header-radius {
   float: right;
-  width: 20%;
+  width: 30%;
   border-top-width: 50px;
   height: 180px;
   border-top: 4px solid rgba(46, 25, 131, 0.8);
   border-right: 4px solid rgba(46, 25, 131, 0.8);
   border-radius: 0px 200px 0px 0px;
-  /* -webkit-border-radius: 0px 200px 0px 0px;
-  -moz-border-radius: 0px 200px 0px 0px; */
+  -webkit-border-radius: 0px 200px 0px 0px;
+  -moz-border-radius: 0px 200px 0px 0px;
 }
 
 .section-border-header {
   display: flex;
-  margin-left: 2vw;
+  transform: translate(30px);
 }
