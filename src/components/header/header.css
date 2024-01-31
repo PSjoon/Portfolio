@@ -6,12 +6,20 @@ header {
 }
 
 a {
+  width: 100%;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.87);
 }
 
-header p {
+.icone-redes {
+  margin-left: 4px;
+}
+
+p {
   position: relative;
+  cursor: pointer;
 }
 
 p::after {
@@ -37,9 +45,31 @@ nav {
 }
 
 .redes {
-  width: 20vw;
+  width: 23vw;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-right: 2vw;
+}
+
+.border-header {
+  height: 60px;
+  width: 80%;
+  border-top: 4px solid rgba(46, 25, 131, 0.8);
+}
+
+.border-header-radius {
+  float: right;
+  width: 20%;
+  border-top-width: 50px;
+  height: 180px;
+  border-top: 4px solid rgba(46, 25, 131, 0.8);
+  border-right: 4px solid rgba(46, 25, 131, 0.8);
+  border-radius: 0px 200px 0px 0px;
+  /* -webkit-border-radius: 0px 200px 0px 0px;
+  -moz-border-radius: 0px 200px 0px 0px; */
+}
+
+.section-border-header {
+  display: flex;
+  margin-left: 2vw;
 }
