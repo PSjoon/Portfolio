@@ -5,12 +5,26 @@ header {
   font-size: 18px;
 }
 
+nav {
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 a {
   width: 100%;
   display: flex;
   align-items: center;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.87);
+}
+
+.redes {
+  width: 23vw;
+  display: flex;
+  align-items: center;
+  margin-right: 2vw;
 }
 
 .icone-redes {
@@ -20,6 +34,7 @@ a {
 p {
   position: relative;
   cursor: pointer;
+  margin-top: 4px;
 }
 
 p::after {
@@ -37,29 +52,15 @@ p:hover::after {
   width: 100%;
 }
 
-nav {
-  width: 60vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.redes {
-  width: 23vw;
-  display: flex;
-  align-items: center;
-  margin-right: 2vw;
-}
-
 .border-header {
   height: 60px;
-  width: 80%;
   border-top: 4px solid rgba(46, 25, 131, 0.8);
 }
 
 .border-header-radius {
   float: right;
-  width: 30%;
+  width: 100%;
+  margin-top: 4px;
   border-top-width: 50px;
   height: 180px;
   border-top: 4px solid rgba(46, 25, 131, 0.8);
@@ -71,5 +72,133 @@ nav {
 
 .section-border-header {
   display: flex;
-  transform: translate(30px);
+  transform: translate(3vw);
+}
+
+.app {
+  display: none;
+}
+
+.app button {
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+
+  .app {
+    display: flex;
+    margin-left: 3vw;
+  }
+
+  .redes-mobile {
+    width: 80vw;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-left: 6vw;
+  }
+
+  .redes-mobile a {
+    display: flex;
+  }
+
+  .menu-container {
+    position: absolute;
+    width: 70vw;
+    margin-top: 80px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    color: white;
+    font-size: 14px;
+    transform: translateX(-200%);
+    transition: 0.3s ease;
+  }
+
+  .menu-container p {
+    padding: 10px;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .menu-container.open {
+    transform: translateX(0);
+  }
+
+  .menu-toggle {
+    display: flex;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  header {
+    display: none;
+  }
+
+  .app {
+    display: flex;
+    margin-left: 3vw;
+  }
+
+  .redes-mobile {
+    width: 80vw;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-left: 6vw;
+  }
+
+  .menu-container {
+    position: absolute;
+    width: 80vw;
+    margin-top: 80px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    color: white;
+    font-size: 16px;
+    transform: translateX(-200%);
+    transition: 0.3s ease;
+  }
+
+  .menu-container p {
+    padding: 10px;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .menu-container.open {
+    transform: translateX(0);
+  }
+
+  .menu-toggle {
+    display: flex;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
 }

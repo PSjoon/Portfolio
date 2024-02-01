@@ -11,32 +11,16 @@
 
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
-
   background: hsla(252, 59%, 45%, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   background: linear-gradient(
     270deg,
     hsla(252, 59%, 45%, 1) 0%,
     hsla(252, 59%, 45%, 1) 52%,
     hsla(264, 87%, 24%, 1) 100%
   );
-
-  background: -moz-linear-gradient(
-    270deg,
-    hsla(252, 59%, 45%, 1) 0%,
-    hsla(252, 59%, 45%, 1) 52%,
-    hsla(264, 87%, 24%, 1) 100%
-  );
-
-  background: -webkit-linear-gradient(
-    270deg,
-    hsla(270, 59%, 45%, 1) 0%,
-    hsla(252, 59%, 45%, 1) 52%,
-    hsla(252, 70%, 24%, 1) 100%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4A2FB6", endColorstr="#4A2FB6", GradientType=1 );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4A2FB6", endColorstr="#4A2FB6", GradientType=1 );
 }
 
 .light-mode:root {
@@ -55,22 +39,4 @@
     hsla(252, 59%, 45%, 1) 52%,
     hsla(264, 87%, 24%, 1) 100%
   );
-
-  background: -moz-linear-gradient(
-    270deg,
-    hsla(252, 59%, 45%, 1) 0%,
-    hsla(252, 59%, 45%, 1) 52%,
-    hsla(264, 87%, 24%, 1) 100%
-  );
-
-  background: -webkit-linear-gradient(
-    270deg,
-    hsla(270, 59%, 45%, 1) 0%,
-    hsla(252, 59%, 45%, 1) 52%,
-    hsla(252, 70%, 24%, 1) 100%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4A2FB6", endColorstr="#4A2FB6", GradientType=1 );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4A2FB6", endColorstr="#4A2FB6", GradientType=1 );
 }
