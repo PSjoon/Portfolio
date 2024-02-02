@@ -1,4 +1,7 @@
 import About from "./components/about/About"
+import Career from "./components/career/Career"
+import Carousel from "./components/carousel/Carousel"
+import Footer from "./components/footer/Footer"
 import Header from "./components/header/Header"
 
 function App() {
@@ -6,6 +9,9 @@ function App() {
     <>
       <Header />
       <About />
+      <Carousel />
+      <Career />
+      <Footer />
     </>
   )
 }

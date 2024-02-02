@@ -21,9 +21,10 @@ a {
 }
 
 .redes {
-  width: 23vw;
+  width: 30vw;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-right: 2vw;
 }
 
@@ -31,7 +32,13 @@ a {
   margin-left: 4px;
 }
 
-p {
+nav p {
+  position: relative;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.redes p {
   position: relative;
   cursor: pointer;
   margin-top: 4px;
@@ -94,10 +101,10 @@ p:hover::after {
   }
 
   .redes-mobile {
+    display: flex;
     width: 80vw;
     align-items: center;
-    justify-content: space-around;
-    display: flex;
+    justify-content: flex-end;
     margin-left: 6vw;
   }
 
@@ -161,6 +168,7 @@ p:hover::after {
     justify-content: space-around;
     display: flex;
     margin-left: 6vw;
+    font-size: 18px;
   }
 
   .menu-container {

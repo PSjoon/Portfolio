@@ -1,0 +1,86 @@
+.curriculum-container {
+  display: grid;
+  width: 100%;
+  height: 90vh;
+
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.curriculum-container p {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.curriculum {
+  width: 80%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+}
+
+.career {
+  display: flex;
+  width: 80%;
+  height: 80%;
+
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+}
+
+.divide {
+  width: 8px;
+  height: 90%;
+  border-radius: 100px;
+
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.dash-container {
+  width: 50%;
+}
+
+.dash-container-reverse {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+}
+
+.dash {
+  width: 50px;
+  height: 4px;
+
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.container-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.container-text-reverse {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .curriculum-container {
+    display: grid;
+    width: 100%;
+    height: 90vh;
+
+    font-size: 14px;
+
+    place-items: center;
+    grid-template-columns: 1fr;
+  }
+}
