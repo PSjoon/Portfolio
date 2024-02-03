@@ -79,7 +79,6 @@ function Header() {
       </header>
 
       <section className="section-border-header">
-        <div className="border-header"></div>
         <div className="border-header-radius"></div>
       </section>
     </>

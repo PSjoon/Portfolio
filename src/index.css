@@ -12,8 +12,6 @@
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
   background: hsla(252, 59%, 45%, 1);
-  background-repeat: no-repeat;
-  background-size: cover;
 
   background: linear-gradient(
     270deg,
