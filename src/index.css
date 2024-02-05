@@ -11,30 +11,5 @@
 
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
-  background: hsla(252, 59%, 45%, 1);
-
-  background: linear-gradient(
-    270deg,
-    hsla(252, 59%, 45%, 1) 0%,
-    hsla(252, 59%, 45%, 1) 52%,
-    hsla(264, 87%, 24%, 1) 100%
-  );
-}
-
-.light-mode:root {
-  font-family: "Nunito", sans-serif;
-  line-height: 1.5;
-  font-weight: 700;
-
-  color-scheme: dark;
-  color: rgba(255, 255, 255, 0.87);
-
-  background: hsla(252, 59%, 45%, 1);
-
-  background: linear-gradient(
-    270deg,
-    hsla(252, 59%, 45%, 1) 0%,
-    hsla(252, 59%, 45%, 1) 52%,
-    hsla(264, 87%, 24%, 1) 100%
-  );
+  background: rgb(97, 95, 95);
 }

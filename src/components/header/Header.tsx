@@ -1,5 +1,4 @@
 import "./header.css"
-import { Switch } from "@mui/material"
 import { FaLinkedin } from "react-icons/fa"
 import { useState } from "react"
 import { FaGithub } from "react-icons/fa"
@@ -8,13 +7,7 @@ import { IoClose } from "react-icons/io5"
 import { RxHamburgerMenu } from "react-icons/rx"
 
 function Header() {
-  const [switchActivate, setSwitchActivate] = useState(false)
-
   const [menuOpen, setMenuOpen] = useState(false)
-
-  const tootleDarkTheme = () => {
-    setSwitchActivate(!switchActivate)
-  }
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen)
@@ -47,8 +40,6 @@ function Header() {
             <p>GitHub</p>
             <FaGithub className="icone-redes" />
           </a>
-
-          <Switch onChange={tootleDarkTheme} checked={switchActivate} />
         </div>
       </div>
 
@@ -73,8 +64,6 @@ function Header() {
             <p>GitHub</p>
             <FaGithub className="icone-redes" />
           </a>
-
-          <Switch onChange={tootleDarkTheme} checked={switchActivate} />
         </div>
       </header>
 
