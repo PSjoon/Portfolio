@@ -1,6 +1,34 @@
+import {
+  SiAxios,
+  SiExpress,
+  SiFastify,
+  SiGooglecolab,
+  SiInsomnia,
+  SiJupyter,
+  SiPostman,
+  SiVercel,
+} from "react-icons/si"
 import "./About.css"
 import backgoundName from "/RectangleName.svg"
 import profilePicture from "/profilePicture.png"
+import {
+  BiLogoHtml5,
+  BiLogoCss3,
+  BiLogoJavascript,
+  BiLogoTypescript,
+  BiLogoNodejs,
+  BiLogoReact,
+  BiLogoPhp,
+  BiLogoPython,
+  BiLogoJava,
+  BiLogoMongodb,
+  BiLogoGit,
+  BiLogoGithub,
+  BiLogoDocker,
+} from "react-icons/bi"
+import { TbBrandNextjs } from "react-icons/tb"
+import { DiMysql, DiSqllite } from "react-icons/di"
+import { FaLinux } from "react-icons/fa"
 
 function About() {
   return (
@@ -32,7 +60,63 @@ function About() {
       </main>
 
       <section className="animation-icons-container">
-        <div className="animation-icons"></div>
+        <div className="container-animation">
+          <div className="animation-icons">
+            <BiLogoHtml5 className="icons" />
+            <BiLogoCss3 className="icons" />
+            <BiLogoJavascript className="icons" />
+            <BiLogoTypescript className="icons" />
+            <BiLogoReact className="icons" />
+            <TbBrandNextjs className="icons" />
+            <SiExpress className="icons" />
+            <SiFastify className="icons" />
+            <BiLogoNodejs className="icons" />
+            <BiLogoPhp className="icons" />
+            <BiLogoPython className="icons" />
+            <BiLogoJava className="icons" />
+            <BiLogoMongodb className="icons" />
+            <DiMysql className="icons" />
+            <DiSqllite className="icons" />
+            <SiAxios className="icons" />
+            <SiGooglecolab className="icons" />
+            <SiJupyter className="icons" />
+            <BiLogoGit className="icons" />
+            <BiLogoGithub className="icons" />
+            <SiPostman className="icons" />
+            <SiInsomnia className="icons" />
+            <FaLinux className="icons" />
+            <SiVercel className="icons" />
+            <BiLogoDocker className="icons" />
+          </div>
+
+          <div className="animation-icons">
+            <BiLogoHtml5 className="icons" />
+            <BiLogoCss3 className="icons" />
+            <BiLogoJavascript className="icons" />
+            <BiLogoTypescript className="icons" />
+            <BiLogoReact className="icons" />
+            <TbBrandNextjs className="icons" />
+            <SiExpress className="icons" />
+            <SiFastify className="icons" />
+            <BiLogoNodejs className="icons" />
+            <BiLogoPhp className="icons" />
+            <BiLogoPython className="icons" />
+            <BiLogoJava className="icons" />
+            <BiLogoMongodb className="icons" />
+            <DiMysql className="icons" />
+            <DiSqllite className="icons" />
+            <SiAxios className="icons" />
+            <SiGooglecolab className="icons" />
+            <SiJupyter className="icons" />
+            <BiLogoGit className="icons" />
+            <BiLogoGithub className="icons" />
+            <SiPostman className="icons" />
+            <SiInsomnia className="icons" />
+            <FaLinux className="icons" />
+            <SiVercel className="icons" />
+            <BiLogoDocker className="icons" />
+          </div>
+        </div>
       </section>
     </>
   )
