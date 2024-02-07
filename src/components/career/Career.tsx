@@ -1,10 +1,20 @@
+import { FaDownload } from "react-icons/fa"
 import "./Career.css"
+import CvFile from "/cvFile.pdf"
 
 function Career() {
   return (
     <>
       <section className="curriculum-container">
-        <div className="curriculum"></div>
+        <div className="curriculum">
+          <div className="image-CV" />
+          <a href={CvFile} className="download-container" target="__blank">
+            <div className="download">
+              <p>Baixar Currículo</p>
+              <FaDownload />
+            </div>
+          </a>
+        </div>
 
         <div className="career">
           <div className="dash-container">
