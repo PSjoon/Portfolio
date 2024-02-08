@@ -5,6 +5,15 @@ import CvFile from "/cvFile.pdf"
 function Career() {
   return (
     <>
+      <div className="topic">
+        <h1 id="curriculo" className="h1-project">
+          Currículo
+        </h1>
+
+        <h1 id="participacoes" className="h1-carer">
+          Participações
+        </h1>
+      </div>
       <section className="curriculum-container">
         <div className="curriculum">
           <div className="image-CV" />

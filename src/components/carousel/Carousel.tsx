@@ -5,7 +5,7 @@ import { RiNotionFill } from "react-icons/ri"
 function Carousel() {
   return (
     <>
-      <h1>Projetos</h1>
+      <h1 id="projetos">Projetos</h1>
       <section className="projects">
         <div className="project-list">
           <div className="project-list-container">

@@ -1,3 +1,7 @@
+import "./About.css"
+import backgoundName from "/RectangleName.svg"
+import bracketLeft from "/bracket-left.svg"
+import bracketRight from "/bracket-right.svg"
 import {
   SiAxios,
   SiExpress,
@@ -8,9 +12,6 @@ import {
   SiPostman,
   SiVercel,
 } from "react-icons/si"
-import "./About.css"
-import backgoundName from "/RectangleName.svg"
-import profilePicture from "/profilePicture.png"
 import {
   BiLogoHtml5,
   BiLogoCss3,
@@ -34,7 +35,7 @@ function About() {
   return (
     <>
       <main>
-        <section className="hero">
+        <section className="hero" id="apresentacao">
           <div className="background-name">
             <img src={backgoundName} alt="" />
             <div className="container-name">
@@ -43,19 +44,21 @@ function About() {
             </div>
           </div>
           <p className="descript">
-            Olá! Sou o Pedro programador Full-Stack e iniciando na
-            desenvolvimento de Software. Possuo habilidades robustas tanto no
-            desenvolvimento frontend quanto no backend, estou comprometido em
-            criar soluções eficientes e elegantes para os desafios de
-            desenvolvimento web. Estou constantemente buscando aprendizado e me
-            adaptanto às últimas tendências e tecnologias, garantindo que meus
-            projetos estejam sempre na vanguarda da inovação. Estou animado para
-            contribuir com minha proficiência em qualquer equipe e ajudar a
-            impulsionar o sucesso dos projetos de forma colaborativa e eficaz.
+            Olá! Sou o Pedro, programador Full-Stack Jr. Possuo habilidades
+            robustas tanto no desenvolvimento frontend quanto no backend, estou
+            comprometido em criar soluções eficientes e elegantes para os
+            desafios de desenvolvimento web. Estou constantemente buscando
+            aprendizado e me adaptanto às últimas tendências e tecnologias,
+            garantindo que meus projetos estejam sempre na vanguarda da
+            inovação. Estou animado para contribuir com minha proficiência em
+            qualquer equipe e ajudar a impulsionar o sucesso dos projetos de
+            forma colaborativa e eficaz.
           </p>
         </section>
         <section className="picture">
-          <img src={profilePicture} alt="" />
+          <img src={bracketLeft} alt="" />
+          <p>Olá, fique a vontade para explorar demais projetos abaixo</p>
+          <img src={bracketRight} alt="" />
         </section>
       </main>
 

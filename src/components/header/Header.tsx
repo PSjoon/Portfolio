@@ -24,7 +24,6 @@ function Header() {
           <p>Apresentação</p>
           <p>Meus Projetos</p>
           <p>Meu Currículo</p>
-          <p>Participações</p>
         </div>
 
         <div className="redes-mobile">
@@ -45,10 +44,19 @@ function Header() {
 
       <header>
         <nav>
-          <p>Apresentação</p>
-          <p>Meus Projetos</p>
-          <p>Meu Currículo</p>
-          <p>Participações</p>
+          <a href="#apresentacao">
+            <p>Apresentação</p>
+          </a>
+          <a href="#projetos">
+            <p>Meus Projetos</p>
+          </a>
+          <a href="#curriculo">
+            <p>Meu Currículo</p>
+          </a>
+
+          <a href="#participacoes">
+            <p>Participações</p>
+          </a>
         </nav>
 
         <div className="redes">

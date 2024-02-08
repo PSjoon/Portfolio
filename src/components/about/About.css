@@ -51,7 +51,18 @@ main p {
 }
 
 .picture {
-  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+}
+
+.picture img {
+  width: 10%;
+}
+.picture p {
+  font-size: 22px;
 }
 
 .animation-icons-container {

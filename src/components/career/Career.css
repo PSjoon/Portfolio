@@ -7,6 +7,22 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.h1-project {
+  margin-left: 70px;
+}
+
+.h1-carer {
+  margin-right: 100px;
+}
+
+.topic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: -20px;
+}
+
 .curriculum-container p {
   margin-left: 6px;
   margin-right: 6px;
