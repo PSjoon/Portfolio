@@ -10,54 +10,54 @@ function Career() {
           Currículo
         </h1>
 
-        <h1 id="participacoes" className="h1-carer">
-          Participações
+        <h1 id="carreira" className="h1-carer">
+          Carreira
         </h1>
       </div>
       <section className="curriculum-container">
-        <div className="curriculum">
+        <a href={CvFile} className="curriculum" target="__blank">
           <div className="image-CV" />
-          <a href={CvFile} className="download-container" target="__blank">
+          <div className="download-container">
             <div className="download">
               <p>Baixar Currículo</p>
               <FaDownload />
             </div>
-          </a>
-        </div>
+          </div>
+        </a>
 
         <div className="career">
           <div className="dash-container">
             <div className="container-text">
-              <p>dez/23 - ETEC</p>
-              <div className="dash"></div>
+              <p>set/21 - Linux</p>
+              <div className="dash" />
             </div>
             <div className="container-text">
-              <p>Pedro</p>
-              <div className="dash"></div>
+              <p>jun/22 - PHP</p>
+              <div className="dash" />
             </div>
             <div className="container-text">
-              <p>jan/24 - Bichinhos de TI</p>
-              <div className="dash"></div>
+              <p>fev/23 - Javascript</p>
+              <div className="dash" />
             </div>
             <div className="container-text">
-              <p>Pedro</p>
-              <div className="dash"></div>
+              <p>set/23 - Typescript</p>
+              <div className="dash" />
             </div>
             <div className="container-text">
-              <p>Pedro</p>
-              <div className="dash"></div>
+              <p>jan/24 - Java</p>
+              <div className="dash" />
             </div>
             <div className="container-text">
-              <p>Pedro</p>
-              <div className="dash"></div>
+              <p>***</p>
+              <div className="dash" />
             </div>
             <div className="container-text">
-              <p>Pedro</p>
-              <div className="dash"></div>
+              <p>***</p>
+              <div className="dash" />
             </div>
             <div className="container-text">
-              <p>Pedro</p>
-              <div className="dash"></div>
+              <p>***</p>
+              <div className="dash" />
             </div>
           </div>
 
@@ -65,40 +65,40 @@ function Career() {
 
           <div className="dash-container-reverse">
             <div className="container-text-reverse">
-              <div className="dash"></div>
-              <p>2023 - TOTH</p>
+              <div className="dash" />
+              <p>abr/21 - Lógica</p>
             </div>
             <div className="container-text-reverse">
-              <div className="dash"></div>
-              <p>Pedro</p>
+              <div className="dash" />
+              <p>abr/22 - HTML5 - CSS3</p>
             </div>
             <div className="container-text-reverse">
-              <div className="dash"></div>
-              <p>Pedro</p>
+              <div className="dash" />
+              <p>nov/22 - Python</p>
             </div>
             <div className="container-text-reverse">
-              <div className="dash"></div>
-              <p>Pedro</p>
+              <div className="dash" />
+              <p>jun/23 - ReactJs</p>
             </div>
             <div className="container-text-reverse">
-              <div className="dash"></div>
-              <p>Pedro</p>
+              <div className="dash" />
+              <p>dez/23 - TCC TOTH</p>
             </div>
             <div className="container-text-reverse">
-              <div className="dash"></div>
-              <p>Pedro</p>
+              <div className="dash" />
+              <p>jan/24 - Bichinhos de TI</p>
             </div>
             <div className="container-text-reverse">
-              <div className="dash"></div>
-              <p>Pedro</p>
+              <div className="dash" />
+              <p>***</p>
             </div>
             <div className="container-text-reverse">
-              <div className="dash"></div>
-              <p>Pedro</p>
+              <div className="dash" />
+              <p>***</p>
             </div>
             <div className="container-text-reverse">
-              <div className="dash"></div>
-              <p>Pedro</p>
+              <div className="dash" />
+              <p>***</p>
             </div>
           </div>
         </div>

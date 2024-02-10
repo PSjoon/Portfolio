@@ -52,6 +52,12 @@ h1 {
 
 .icons-project {
   margin-left: 10px;
+  transition: 200ms linear;
+  overflow: hidden;
+}
+
+.icons-project:hover {
+  transform: scale(0.8);
 }
 
 @media screen and (max-width: 600px) {

@@ -54,8 +54,8 @@ function Header() {
             <p>Meu Currículo</p>
           </a>
 
-          <a href="#participacoes">
-            <p>Participações</p>
+          <a href="#carreira">
+            <p>Carreira</p>
           </a>
         </nav>
 
